@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-   <link rel="icon" href="amazon-icon-21102.png">
+    <link rel="icon" href="amazon-icon-21102.png">
     <title>Amazon clone</title>
 </head>
 
@@ -27,12 +27,10 @@
                 </div>
             </div>
             <div class="nav-search-bar">
-                <div class="dropdown">
-                    <p>All</p>
-                </div>
-                <div class="search">
-                    <p>Search Amazon</p>
-                </div>
+                <select class="dropdown">
+                    <option>All</option>
+                </select>
+                <input class="search" placeholder="Search Amazon">
                 <div class="search-icon">
                     <div class="iconss">
                         <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
@@ -75,7 +73,8 @@
         <nav class="below-nav-bar">
             <div class="nav-bar-elements">
                 <ul class="nav-bar-lists">
-                    <li class="border">All</li>
+                    <li class="border">
+                        <i class="fa-solid fa-bars"></i> All</li>
                     <li class="border">Today's Deal</li>
                     <li class="border">customer service</li>
                     <li class="border">Registery</li>
@@ -86,6 +85,12 @@
             </div>
         </nav>
     </header>
+
+    <div class="hero-section">
+        <div class="msg">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="amazon.in">Click here to go to amazon.in</a></p>
+        </div>
+    </div>
 </body>
 
 </html>
