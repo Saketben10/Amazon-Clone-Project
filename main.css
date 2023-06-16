@@ -391,7 +391,7 @@
     height: 30px;
     border: 1px solid rgba(252, 154, 43, 0.842);
     font-weight: bold;
-    background-image: linear-gradient(white, rgba(247, 212, 10, 0.938));
+    background-image: linear-gradient(rgb(238, 238, 125), rgba(247, 164, 10, 0.979));
 
 }
 
@@ -434,6 +434,7 @@
     color: white;
     display: flex;
     justify-content: space-evenly;
+   
      
 }
 
